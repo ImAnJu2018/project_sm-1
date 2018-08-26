@@ -132,24 +132,6 @@
                             <ul>
                                 <li><a data-target="#cs-login" href="#" data-toggle="modal"><i class="icon-login"></i>Login</a></li>
                                 <li><a data-target="#cs-signup" href="#" data-toggle="modal"><i class="icon-user2"></i>Signup</a></li>
-<!--
-                                <li>
-                                    <div class="cs-user-login">
-                                        <div class="cs-media">
-                                            <figure><img alt="" src="front_end/assets/extra-images/user-login-img-1.jpg"></figure>
-                                        </div>
-                                        <a href="#">Alard William</a>
-                                        <ul>
-                                            <li><a href="user-detail.html"><i class="icon-user3"></i> About me</a></li>
-                                            <li><a href="user-courses.html"><i class="icon-graduation-cap"></i> My Courses</a></li>
-                                            <li><a href="user-short-listed.html"><i class="icon-heart"></i> Favorites</a></li>
-                                            <li><a href="user-statements.html"><i class="icon-text-document"></i> Statement</a></li>
-                                            <li class="active"><a href="user-account-setting.html"><i class="icon-gear"></i> Profile Setting</a></li>
-                                            <li><a href="#"><i class="icon-log-out"></i> Logout</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
--->
                             </ul>
                         </div>
                         <div class="cs-modal">
@@ -435,7 +417,7 @@
 	</header>
 	<!-- Header End --> 
 	<!-- Banner Start --> 
-	<div class="page-section banner_bg" style="background:url(assets/images/banner.jpg)">
+	<div class="page-section banner_bg" style="background:url(front_end/assets/images/banner.jpg)">
 <!--
 		<div class="container">
 			<div class="row">
@@ -529,7 +511,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img1.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img1.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -544,7 +526,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img2.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img2.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -559,7 +541,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img3.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img3.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -585,7 +567,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img3.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img3.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -600,7 +582,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img2.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img2.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -615,7 +597,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img1.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img1.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -630,7 +612,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img3.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img3.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -645,7 +627,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img2.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img2.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -660,7 +642,7 @@
 								<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="cs-blog blog-grid">
 									<div class="cs-media">
-										<figure><a href="#"><img src="front_end/assets/extra-images/Blogs-grid-img1.jpg" alt=""></a><figcaption>athelitcs</figcaption></figure>
+										<figure><a href="#"><img src={{asset("front_end/assets/extra-images/Blogs-grid-img1.jpg")}} alt=""></a><figcaption>athelitcs</figcaption></figure>
 									</div>
 									<div class="cs-blog-text">
 										<div class="post-options">
@@ -706,184 +688,7 @@
 				</div>
 			</div>
 		</div> 
-<!--
-		<div class="page-section" style="background:#f9fafa;padding-top:62px;margin-bottom:82px;">
-			<div class="container">
-			  <div class="row">
-			  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="cs-section-title left">
-					  <h2>Departments & Programs</h2>
-					  <p style="color:#aaaaaa !important;">Whatever it is you want to do, Concordia’s more than 60 majors, including 15 honors majors.</p>
-					</div>
-              	</div>
-				<aside class="section-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              	<div class="widget cs-widget-links">
-                	<ul>
-                    	<li><a href="#">About University</a></li>
-                        <li><a href="#">Frequently Asked Questions</a></li>
-                        <li><a href="#">Price Plan</a></li>
-                        <li><a href="#">University Galleries</a></li>
-                        <li><a href="#">Faculty &amp; Staff Directory</a></li>
-                        <li><a href="#">Students</a></li>
-                        <li><a href="#">Bbpress Forums</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>              
-                </div>
-              </aside>
-				<div class="page-content col-lg-9 col-md-9 col-sm-12 col-xs-12">
-				  <div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="cs-courses courses-grid">
-							<div class="cs-media">
-								<figure><a href="#"><img src="front_end/assets/extra-images/course-grid-img1.jpg" alt=""/></a></figure>
-							</div>
-							<div class="cs-text">
-								<span class="cs-caption">CC</span>
-								<div class="cs-rating">
-								  <div class="cs-rating-star">
-									<span class="rating-box" style="width:100%;"></span>
-								  </div>
-								</div>
-								<div class="cs-post-title">
-								  <h5><a href="#">Latest Computer Science and Programming</a></h5>
-								</div>
-								<span class="cs-courses-price"><em>$</em>289.99</span>
-								<div class="cs-post-meta">
-								  <span>By
-									<a href="#" class="cs-color">James,</a>
-									<a href="#" class="cs-color">Howdson</a>
-								  </span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="cs-courses courses-grid">
-							<div class="cs-media">
-								<figure><a href="#"><img src="front_end/assets/extra-images/course-grid-img2.jpg" alt=""/></a></figure>
-							</div>
-							<div class="cs-text">
-								<div class="cs-rating">
-								  <div class="cs-rating-star">
-									<span class="rating-box" style="width:100%;"></span>
-								  </div>
-								</div>
-								<div class="cs-post-title">
-								  <h5><a href="#">Basic Time Management Course</a></h5>
-								</div>
-								<span class="cs-courses-price"><em>$</em>189.99</span>
-								<div class="cs-post-meta">
-								  <span>By
-									<a href="#" class="cs-color">James,</a>
-									<a href="#" class="cs-color">Howdson</a>
-								  </span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="cs-courses courses-grid">
-							<div class="cs-media">
-								<figure><a href="#"><img src="front_end/assets/extra-images/course-grid-img3.jpg" alt=""/></a></figure>
-							</div>
-							<div class="cs-text">
-								<div class="cs-rating">
-								  <div class="cs-rating-star">
-									<span class="rating-box" style="width:100%;"></span>
-								  </div>
-								</div>
-								<div class="cs-post-title">
-								  <h5><a href="#">How to Become a Startup Founder</a></h5>
-								</div>
-								<span class="cs-courses-price"><em>$</em>175.99</span>
-								<div class="cs-post-meta">
-								  <span>By
-									<a href="#" class="cs-color">James,</a>
-									<a href="#" class="cs-color">Howdson</a>
-								  </span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="cs-courses courses-grid">
-							<div class="cs-media">
-								<figure><a href="#"><img src="front_end/assets/extra-images/course-grid-img4.jpg" alt=""/></a></figure>
-							</div>
-							<div class="cs-text">
-								<div class="cs-rating">
-								  <div class="cs-rating-star">
-									<span class="rating-box" style="width:100%;"></span>
-								  </div>
-								</div>
-								<div class="cs-post-title">
-								  <h5><a href="#">How to Design a Logo a Beginners Course</a></h5>
-								</div>
-								<span class="cs-courses-price"><em>$</em>49.99</span>
-								<div class="cs-post-meta">
-								  <span>By
-									<a href="#" class="cs-color">James,</a>
-									<a href="#" class="cs-color">Howdson</a>
-								  </span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="cs-courses courses-grid">
-							<div class="cs-media">
-								<figure><a href="#"><img src="front_end/assets/extra-images/course-grid-img5.jpg" alt=""/></a></figure>
-							</div>
-							<div class="cs-text">
-								<span class="cs-caption">CC</span>
-								<div class="cs-rating">
-								  <div class="cs-rating-star">
-									<span class="rating-box" style="width:100%;"></span>
-								  </div>
-								</div>
-								<div class="cs-post-title">
-								  <h5><a href="#">Introduction to Mobile Apps Development</a></h5>
-								</div>
-								<span class="cs-courses-price"><em>$</em>155.99</span>
-								<div class="cs-post-meta">
-								  <span>By
-									<a href="#" class="cs-color">James,</a>
-									<a href="#" class="cs-color">Howdson</a>
-								  </span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="cs-courses courses-grid">
-							<div class="cs-media">
-								<figure><a href="#"><img src="front_end/assets/extra-images/course-grid-img6.jpg" alt=""/></a></figure>
-							</div>
-							<div class="cs-text">
-								<div class="cs-rating">
-								  <div class="cs-rating-star">
-									<span class="rating-box" style="width:100%;"></span>
-								  </div>
-								</div>
-								<div class="cs-post-title">
-								  <h5><a href="#">Latest Computer Science and Programming</a></h5>
-								</div>
-								<span class="cs-free">Free</span>
-								<div class="cs-post-meta">
-								  <span>By
-									<a href="#" class="cs-color">James,</a>
-									<a href="#" class="cs-color">Howdson</a>
-								  </span>
-								</div>
-							</div>
-						</div>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		</div>
--->
+
 		<div class="page-section">
 			<div class="container">
 				<div class="row">

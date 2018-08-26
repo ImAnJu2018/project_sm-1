@@ -14,7 +14,16 @@
 Route::get('/', function () {
     return view('front_end.front_layout');
 });
-Route::get('/admin', function () {
-    return view('back_end.pages.dashboard');
+
+
+Route::get('/admin/students_table', function () {
+    return view('back_end.pages.students_table');
 });
 
+Route::group(['as'=>'admin.','prefix'=>'admin','namespace'=>'Admin'],function ()
+{
+    Route::get('dashboard', function () {
+        return view('back_end.pages.dashboard');
+    });
+    Route::resource('student','StudentController');
+});
